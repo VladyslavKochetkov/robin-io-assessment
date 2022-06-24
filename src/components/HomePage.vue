@@ -49,6 +49,12 @@ onMounted(() => {
     <button @click="toggleAnimations">
       Toggle Animations (Currently: {{ state.animation ? "On" : "Off" }})
     </button>
+    <a
+      href="https://github.com/VladyslavKochetkov/robin-io-assessment"
+      rel="noopener"
+      target="_blank"
+      >Link to source code</a
+    >
   </div>
 </template>
 
